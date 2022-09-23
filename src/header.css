@@ -1,0 +1,44 @@
+.app-film {
+    margin-top: 3rem;
+}
+
+.header{
+    background-color: #260b42;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    height: 10px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    box-shadow: 0 0 10px white;
+}
+
+.header h1{
+    font: 100px;
+}
+
+.input-text{
+    height: 22px;
+    width: 210px;
+    padding: 3px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+button{
+    border-radius: 3px;
+    height: 22px;
+    width: 100px;
+    border: none;
+    transition: 0.5s ease;
+}
+
+button:hover{
+   background-color: #c8bed1;
+}
