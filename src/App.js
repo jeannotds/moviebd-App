@@ -26,7 +26,7 @@ function App() {
   return (
     <div className='app'>
       <Header />  
-          <div className='app-film'>
+          <div className=''>
               
             {movies.map((movieReq)=>
                 <MovieBox key={movieReq.id} {...movieReq}/>

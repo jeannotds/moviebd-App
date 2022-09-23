@@ -6,11 +6,11 @@ const Header = () => {
 
     return (
         // 341456
-        <div className="header">
-            <h2 className="title-header">MovieDB App</h2>
-            <nav className="nav">
+        <div className="">
+            <h2 className="">MovieDB App</h2>
+            <nav className="">
                 <input type="text" className='input-text' placeholder="Search..."/>
-                <button className="btn">Search</button>
+                <button className="">Search</button>
             </nav>
         </div>
     )

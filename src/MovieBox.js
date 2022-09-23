@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import Header from "./Header"
 // import '../moviebox.css'
 import '../src/moviebox.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 const MovieBox = ({title, poster_path, vote_average, release_date, overview}) => {
