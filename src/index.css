@@ -9,13 +9,21 @@ body {
   background-color: black;
 }
 
-*{
+/* *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app-film{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+

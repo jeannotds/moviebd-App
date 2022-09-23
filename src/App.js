@@ -24,14 +24,10 @@ function App() {
   }, [])
 
   return (
-    <div className='app'>
-      <Header />  
-          <div className=''>
-              
-            {movies.map((movieReq)=>
-                <MovieBox key={movieReq.id} {...movieReq}/>
-            )}
-          </div>
+    <div className=''>
+          {movies.map((movieReq)=>
+              <MovieBox key={movieReq.id} {...movieReq}/>
+          )}
     </div>
   );
 }
