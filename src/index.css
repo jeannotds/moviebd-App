@@ -20,6 +20,10 @@ code {
     monospace;
 }
 
+/* .app{
+  background-color: black;
+} */
+
 .app-film{
   display: flex;
   flex-wrap: wrap;

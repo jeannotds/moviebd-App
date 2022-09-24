@@ -60,7 +60,7 @@ function App() {
 
                           </Nav>
                               <Form className="d-flex" onSubmit={searchMovie}>
-                                  <FormControl type="search" placeholder='Movie Search' className='me-2'
+                                  <FormControl type="search" placeholder='Movie Search' required className='me-2'
                                       aria-label='search' name="query" value={query} onChange={changeHandle}>
                                   </FormControl>
                                   <button variant="secondary" type="submit">
@@ -71,11 +71,16 @@ function App() {
                       </Navbar.Collapse>
               </Container>
           </Navbar>
-          <div className='app-film'>
-            {movies.map((movieReq)=>
-                <MovieBox key={movieReq.id} {...movieReq}/>
-            )}
-        </div>
+          <div> 
+             {movies.length > 0 ? ( 
+              <div className='app-film'>
+                {movies.map((movieReq)=>
+                    <MovieBox key={movieReq.id} {...movieReq}/>
+                )}
+              </div>
+              ):
+              (<h1>Sorri !!! No Movie Found</h1>)} 
+          </div>
     </div>
     </>
   );
